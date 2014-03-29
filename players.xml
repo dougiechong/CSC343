@@ -127,4 +127,10 @@
 			<country>Canada</country>
 		</nationality>
 	</player>
+	<player pid="21" fname="John" lname="Jack" married="no">
+		<salary>157000</salary>
+		<nationality>
+			<country>Canada</country>
+		</nationality>
+	</player>
 </players>

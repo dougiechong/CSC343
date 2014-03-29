@@ -1,2 +1,3 @@
-for i in 1 to 2
-return <oneEval>{i}</oneEval>
+for $player in doc("players.xml")/players/player 
+where (count($player/nationality/country)>1)
+return ($player/@fname, $player/@lname)
