@@ -1,4 +1,5 @@
 let $players := doc("players.xml")/players/player
+(:Need to self-join to use distinct-values on entire result:)
 let $dup_names := distinct-values(for $player1 in $players,
     		    		      $player2 in $players
 				  where($player1/@fname = $player2/@fname and
