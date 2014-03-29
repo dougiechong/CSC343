@@ -1,10 +1,11 @@
-let $players := doc("players.xml")
-let $non_distinct_players := for $i in 1 to count($players//player)
-	       	 		 for $j in 1 to count($players//player)
-				 (:	where($players//player[$i]/@fname = $players//player[$j]/@fname and
-					      $players//player[$i]/@lname = $players//player[$j]/@lname and
-					      $players//player[$i]/@id != $players//player[$j]/@id):)
-	       		 	 return $i(:$players//player[$i]:)
+let $players := doc("players.xml")/players/player
+let $dup_names := distinct-values(for $player1 in $players,
+    		    		      $player2 in $players
+				  where($player1/@fname = $player2/@fname and
+					$player1/@lname = $player2/@lname and
+					$player1/@pid != $player2/@pid)
+				  return ($player1/@fname, $player1/@lname))
 
-return distinct-values($non_distinct_players) 
+return $dup_names
+
 

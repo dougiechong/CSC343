@@ -8,7 +8,7 @@
 		</location>
 		<teams>
 			<team tid="1">
-				<score>5</score>
+				<score>6</score>
 			</team>
 			<team tid="2">
 				<score>1</score>
@@ -22,10 +22,10 @@
 		</location>
 		<teams>
 			<team tid="1">
-				<score>5</score>
+				<score>2</score>
 			</team>
 			<team tid="3">
-				<score>1</score>
+				<score>4</score>
 			</team>
 		</teams>
 	</match>
