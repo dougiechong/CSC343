@@ -10,4 +10,4 @@ for $country in $c_that_lost,
     $player in doc("players.xml")/players/player
 where (($player/salary > 100000) and ($player/nationality/country = $country))
 
-return $player/@pid
+return string($player/@pid)

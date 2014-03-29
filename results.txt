@@ -5,53 +5,57 @@ Checking Assignment 4 Solutions
 --- Query q1 ---
 
 Raw results:
-attribute fname {"Tom"},
-attribute lname {"Brown"},
-attribute fname {"Conrad"},
-attribute lname {"Black"},
-attribute fname {"Harry"},
-attribute lname {"Johnson"},
-attribute fname {"John"},
-attribute lname {"Smith"},
-attribute fname {"Jim"},
-attribute lname {"Hardwick"},
-attribute fname {"Oliver"},
-attribute lname {"Cromwell"}
+"Tom Brown",
+"Conrad Black",
+"Harry Johnson",
+"John Smith",
+"Jim Hardwick",
+"Oliver Cromwell"
 
 --- Query q2 ---
 
 Raw results:
-xs:untypedAtomic("John"),
-xs:untypedAtomic("Smith"),
-xs:untypedAtomic("Oliver"),
-xs:untypedAtomic("Cromwell")
+"John Smith", "Oliver Cromwell"
 
 --- Query q3 ---
 
 Raw results:
-<city>Guatemala City</city>,
-<country>Guatemala</country>,
-<city>Singapore</city>,
-<country>Singapore</country>,
-<city>Singapore</city>,
-<country>Singapore</country>
+"Guatemala City, Guatemala", "Singapore, Singapore", "Singapore, Singapore"
 
 --- Query q4 ---
 
 Raw results:
-attribute pid {"20"}, attribute pid {"21"}, attribute pid {"19"}
+"20", "21", "19"
 
 --- Query q5 ---
 
 Raw results:
+"Kings"
 
 --- Query q6 ---
 
 Raw results:
+"Name:John Smith, Salary:57000, Team Name:Leafs",
+"Name:Alice Herman, Salary:1000000, Team Name:Kings"
 
 --- Query q7 ---
 
 Raw results:
+"Match #:1, # of Married Players:3",
+"Match #:2, # of Married Players:4",
+"Match #:3, # of Married Players:5",
+"Match #:4, # of Married Players:4",
+"Match #:5, # of Married Players:4",
+"Match #:6, # of Married Players:2",
+"Match #:7, # of Married Players:5",
+"Match #:8, # of Married Players:3",
+"Match #:9, # of Married Players:3",
+"Match #:10, # of Married Players:3",
+"Match #:11, # of Married Players:4",
+"Match #:12, # of Married Players:2",
+"Match #:13, # of Married Players:4",
+"Match #:14, # of Married Players:5",
+"Match #:15, # of Married Players:3"
 
 --- Query q8 ---
 
