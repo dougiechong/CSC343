@@ -1,3 +1,4 @@
+
 (:Set up initial paths:)
 let $p_married := doc("players.xml")/players/player[@married = "yes"]
 let $match := doc("matches.xml")/matches/match

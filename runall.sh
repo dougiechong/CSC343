@@ -1,3 +1,4 @@
+
 #! /bin/sh
 
 echo "Checking Assignment 4 Solutions" > results.txt
@@ -5,7 +6,6 @@ echo "Checking Assignment 4 Solutions" > results.txt
 echo "" >> results.txt
 
 echo "======= Generating query output =======" >> results.txt
-
 # checking queries
 for query in q1 q2 q3 q4 q5 q6 q7 q8 q9 q10
 do
